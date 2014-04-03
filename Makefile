@@ -13,7 +13,7 @@ makepdf: compile
 
 # Create an image file in png format
 makeimage: compile makepdf
-	convert resume.pdf Erik_Sutherland_Resume.png
+	convert resume.pdf Alexander_Simchuk_Resume.png
 
 # Create a pdf file, and view if with evince pdf viewer
 preview: makepdf
