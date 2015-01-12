@@ -10,7 +10,7 @@ compile:
 # make the PDF file of the resume
 makepdf: compile
 	dvipdfm resume.dvi
-	cp resume.pdf ~/resume_letters/Alexander_Simchuk_resume.pdf
+	cp resume.pdf ./Alexander_Simchuk_Resume.pdf
 
 # Create an image file in png format
 makeimage: compile makepdf
